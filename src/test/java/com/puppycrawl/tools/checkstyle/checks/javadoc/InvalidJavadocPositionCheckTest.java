@@ -103,6 +103,6 @@ public class InvalidJavadocPositionCheckTest extends AbstractModuleTestSupport {
             "1:1: " + getCheckMessage(MSG_KEY),
         };
         verify(checkConfig, getPath("comment/package-info.java"), expected);
-    }
+    }dddd
 
 }
